@@ -4,7 +4,6 @@ import PostPreview from "../components/PostPreview.astro";
 import SocialMediaIcons from "../components/SocialMediaIcons.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { sortMDByDate } from "../utils";
-import type { WorkExperience } from "../data/work-experience";
 
 const MAX_POSTS = 10;
 const allPosts = await getCollection("blog");
@@ -44,6 +43,9 @@ const projects: Array<{
   },
 ];
 ---
+
+---
+import type { WorkExperience } from "../data/work-experience";
 
 interface Props {
   data: WorkExperience;
@@ -89,6 +91,7 @@ const { data } = Astro.props;
     }
   </div>
 </div>
+
 
 <BaseLayout navbarActiveItemID="home">
   <main>
