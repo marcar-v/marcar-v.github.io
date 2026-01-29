@@ -81,9 +81,9 @@ const { data } = Astro.props;
   </div>
   <div class="mx-4">
     {
-      data.technologies.map((technology) => (
-        <span class="kbd kbd-sm hover:shadow-xl hover:scale-110 duration-150 mx-1 mt-2">{`${technology}`}</span>
-      ))
+      {data.technologies.map(technology => (
+        <span class="kbd kbd-sm hover:shadow-xl hover:scale-110 duration-150 mx-1 mt-2">{technology}</span>
+          ))}
     }
   </div>
 </div>
