@@ -10,13 +10,9 @@ const allPosts = await getCollection("blog");
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 
 const techStack: Record<string, string> = {
-  ts: "TypeScript",
-  python: "Python",
-  sql: "SQL",
-  gpt: "LLMs, GPT-3/4, Claude, etc.",
-  astro: "Astro",
-  tailwind: "Tailwind",
-  shadcn: "Shadcn",
+  c#: "C#",
+  c++: "C++",
+  java: "Java",
 };
 
 const projects: Array<{
@@ -27,14 +23,12 @@ const projects: Array<{
 }> = [
   {
     title: "Sample Project",
-    description: "Example project showcasing features",
-    link: "https://github.com/ojoanalogo/terminus-astro-template",
-    icon: "🚀",
+    description: "Implementación del clásico juego de puzles centrada en lógica de rotación, colisiones, gestión de estados y control preciso del ritmo de juego.",
+    link: "https://github.com/marcar-v/Tetris",
   },
   {
     title: "Another Project",
     description: "Add your own projects here",
-    icon: "💻",
     link: "",
   },
 ];
