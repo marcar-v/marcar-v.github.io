@@ -10,7 +10,6 @@ const allPosts = await getCollection("blog");
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 
 const techStack: Record<string, string> = {
-  c#: "C#",
   c++: "C++",
   java: "Java",
 };
@@ -23,7 +22,7 @@ const projects: Array<{
 }> = [
   {
     title: "Sample Project",
-    description: "Implementación del clásico juego de puzles centrada en lógica de rotación, colisiones, gestión de estados y control preciso del ritmo de juego.",
+    description: "Implementación del clásico juego de puzles centrada en lógica de rotación, colisiones, gestión de estados y control preciso del ritmo de juego",
     link: "",
   },
   {
