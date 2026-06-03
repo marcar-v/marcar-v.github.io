@@ -10,9 +10,15 @@ const allPosts = await getCollection("blog");
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 
 const techStack: Record<string, string> = {
-  cpp: "C++",
-  csharp: "C#",
-  java: "Java",
+  cpp: "C++ (systems / game programming)",
+  csharp: "C# (Unity gameplay programming)",
+  java: "Java (object-oriented programming / academic practice)",
+
+  engines: "Unity / Unreal Engine (VR systems, gameplay prototypes)",
+  gameplay: "Collision systems / physics-based movement / input handling",
+  architecture: "State machines / game loop design / basic system architecture",
+
+  tools: "Git (version control, branching, collaborative workflows)",
 };
 
 const projects: Array<{
@@ -22,42 +28,43 @@ const projects: Array<{
 }> = [
   {
     title: "Tetris clone",
-    description: "Implementation of the classic puzzle game focused on rotation logic, collision handling, state management, and precise control of gameplay pacing",
+    description: "Grid-based puzzle system implementing rotation logic (wall kicks / collision resolution), hard-drop timing, and state transitions between active piece, lock, and line-clear phases. 
+    Focus on deterministic gameplay loop and input responsiveness under frame constraints.",
     link: "https://github.com/marcar-v/Tetris",
   },
   {
     title: "Frog Plataform 2D",
-    description: "Platformer game with physics-based movement, jumping, and lateral navigation, focused on level design and responsive controls.",
+    description: "Physics-driven platformer emphasizing character controller tuning (acceleration curves, jump buffering, coyote time), collision response, and lateral movement feel. Iteration focused on input latency and control precision.",
     link: "https://github.com/marcar-v/plataformas-2d",
   },
     {
     title: "Jelix Hump",
-    description: "Casual physics-based game where the player manipulates the environment, focusing on collision detection, progression systems, and incremental difficulty scaling.",
+    description: "Physics-based arcade system centered on environmental interaction and collision-driven progression. Implements incremental difficulty scaling and loop-based pacing through procedural or semi-procedural challenge escalation.",
     link: "https://github.com/marcar-v/helix-jump",
   },
     {
     title: "VR Experience (Unreal Engine)",
-    description: "Immersive experience in Unreal Engine focused on virtual reality interaction, basic locomotion systems, and performance optimization.",
+    description: "Virtual reality interaction prototype in Unreal Engine focusing on locomotion design (comfort constraints, movement modes), interaction systems, and runtime performance considerations (frame stability and motion latency sensitivity).",
     link: "https://github.com/marcar-v/M06-UnrealEngine",
   },
       {
     title: "Gala Samantaro",
-    description: "2D platformer game with enemies and bosses, where the player progresses through levels collecting coins and overcoming obstacles.",
+    description: "2D action-platformer with enemy AI behaviors, boss encounter structure, and reward loop design. Level progression built around escalating combat and resource collection under structured difficulty curves.",
     link: "https://github.com/marcar-v/final-project",
   },
       {
     title: "Clicker",
-    description: "2D clicker game where the player interacts with geometric shapes to achieve maximum distance.",
+    description: "Incremental interaction loop system based on continuous input feedback and exponential progression scaling. Focus on reward pacing, feedback loops, and simple state accumulation mechanics.",
     link: "https://github.com/marcar-v/Clicker",
   },
       {
     title: "Ejercicios Java",
-    description: "Personal practice project aimed at learning and reinforcing fundamental Java concepts.",
+    description: "Structured programming practice covering core CS concepts (OOP, control flow, data structures). Used as reinforcement of algorithmic thinking and language-level fundamentals.",
     link: "https://github.com/marcar-v/java_curso",
   },
       {
     title: "Dual Cycle - In development",
-    description: "Mobile app for tracking and managing multiple users’ menstrual cycles, with authentication, remote access, and cycle prediction.",
+    description: "Mobile application with authentication flow, multi-user data management, and remote state synchronization. Core focus on data modeling, persistence, and predictive logic for cycle estimation.",
     link: "https://github.com/marcar-v/dual-cycle",
   },
 
@@ -99,7 +106,7 @@ const projects: Array<{
             <!-- Personal paragraph -->
             <div class="bg-gray-500/10 rounded-lg p-3 mb-4">
               <p class="text-gray-200 leading-relaxed">
-                Welcome to my game development portfolio. This space showcases my projects, experiments, and learning process, with a focus on interactive narrative, gameplay design, and software development. It documents my work across different engines and technologies, as well as my ongoing progression as both a game and software developer.
+                Focused on gameplay programming and software development for interactive systems. Work centers on building responsive control systems, physics-based interactions, and modular gameplay loops across Unity and Unreal Engine, alongside general software development practice in object-oriented design and application structure. Projects explore mechanics, input responsiveness, system architecture, and behavior-driven game logic.
               </p>
             </div>
 
@@ -113,7 +120,7 @@ const projects: Array<{
             <div class="flex">
               <span class="text-gray-400 w-36 shrink-0">Work</span>
               <span class="text-white">
-                Game Developer
+                Gameplay Programming (Unity / Unreal Engine) / Software Developer
                 
               </span>
             </div>
@@ -121,7 +128,7 @@ const projects: Array<{
             <div class="flex">
               <span class="text-gray-400 w-36 shrink-0">Interests</span>
               <span class="text-white"
-                >Technology and programming, video games (analysis and design), board games and mechanics design, reading, especially fiction and narrative.</span
+                >Game systems design, gameplay programming, physics-based interactions, level design analysis, interactive fiction systems, board game mechanics.</span
               >
             </div>
 
