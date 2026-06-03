@@ -23,38 +23,43 @@ const projects: Array<{
 }> = [
   {
     title: "Tetris clone",
-    description: "Implementación del clásico juego de puzles centrada en lógica de rotación, colisiones, gestión de estados y control preciso del ritmo de juego",
+    description: "Implementation of the classic puzzle game focused on rotation logic, collision handling, state management, and precise control of gameplay pacing",
     link: "https://github.com/marcar-v/Tetris",
   },
   {
     title: "Frog Plataform 2D",
-    description: "Juego de plataformas con físicas, saltos y movimiento lateral, enfocado en el diseño de niveles y la respuesta del control.",
+    description: "Platformer game with physics-based movement, jumping, and lateral navigation, focused on level design and responsive controls.",
     link: "https://github.com/marcar-v/plataformas-2d",
   },
     {
     title: "Jelix Hump",
-    description: "Juego casual basado en físicas donde el jugador controla el entorno, trabajando detección de colisiones, progresión y dificultad incremental.",
+    description: "Casual physics-based game where the player manipulates the environment, focusing on collision detection, progression systems, and incremental difficulty scaling.",
     link: "https://github.com/marcar-v/helix-jump",
   },
     {
     title: "VR Experience (Unreal Engine)",
-    description: "Experiencia inmersiva en Unreal Engine centrada en interacción en realidad virtual, locomoción básica y optimización del rendimiento..",
+    description: "Immersive experience in Unreal Engine focused on virtual reality interaction, basic locomotion systems, and performance optimization.",
     link: "https://github.com/marcar-v/M06-UnrealEngine",
   },
       {
     title: "Gala Samantaro",
-    description: "Juego 2D de plataformas con enemigos y jefes, en el que el jugador progresa por niveles recogiendo monedas y superando obstáculos.",
+    description: "2D platformer game with enemies and bosses, where the player progresses through levels collecting coins and overcoming obstacles.",
     link: "https://github.com/marcar-v/final-project",
   },
       {
     title: "Clicker",
-    description: "Juego clicker 2D en el que interactúas con formas geométricas para alcanzar la mayor distancia posible.",
+    description: "2D clicker game where the player interacts with geometric shapes to achieve maximum distance.",
     link: "https://github.com/marcar-v/Clicker",
   },
       {
     title: "Ejercicios Java",
-    description: "Proyecto de práctica personal para aprender y reforzar conceptos fundamentales de Java.",
+    description: "Personal practice project aimed at learning and reinforcing fundamental Java concepts.",
     link: "https://github.com/marcar-v/java_curso",
+  },
+      {
+    title: "Dual Cycle - In development",
+    description: "Mobile app for tracking and managing multiple users’ menstrual cycles, with authentication, remote access, and cycle prediction.",
+    link: "https://github.com/marcar-v/dual-cycle",
   },
 
 ];
@@ -87,7 +92,7 @@ const projects: Array<{
               <div class="flex flex-col">
                 <h1 class="text-primary text-xl">Violeta Martín</h1>
                 <p class="text-gray-400 text-xs">
-                  Desarrolladora de videojuegos
+                  Game Developer
                 </p>
               </div>
             </div>
@@ -95,7 +100,7 @@ const projects: Array<{
             <!-- Personal paragraph -->
             <div class="bg-gray-500/10 rounded-lg p-3 mb-4">
               <p class="text-gray-200 leading-relaxed">
-                Bienvenida a mi portfolio como desarrolladora de videojuegos. Este espacio recoge mis proyectos, experimentos y aprendizajes, con un enfoque en narrativa interactiva y diseño de gameplay. Aquí documento mi trabajo con distintos motores y tecnologías, así como mi evolución como creadora de experiencias jugables.
+                Welcome to my game development portfolio. This space showcases my projects, experiments, and learning process, with a focus on interactive narrative, gameplay design, and software development. It documents my work across different engines and technologies, as well as my ongoing progression as both a game and software developer.
               </p>
             </div>
 
@@ -103,13 +108,13 @@ const projects: Array<{
 
             <div class="flex">
               <span class="text-gray-400 w-36 shrink-0">Location</span>
-              <span class="text-white">Granada, España 🌍</span>
+              <span class="text-white">Granada, Spain 🌍</span>
             </div>
 
             <div class="flex">
               <span class="text-gray-400 w-36 shrink-0">Work</span>
               <span class="text-white">
-                Desarrolladora de videojuegos
+                Game Developer
                 
               </span>
             </div>
@@ -117,7 +122,7 @@ const projects: Array<{
             <div class="flex">
               <span class="text-gray-400 w-36 shrink-0">Interests</span>
               <span class="text-white"
-                >Tecnología y programación, videojuegos (análisis y diseño), Juegos de mesa y diseño de mecánicas, lectura, especialmente ficción y narrativa</span
+                >Technology and programming, video games (analysis and design), board games and mechanics design, reading, especially fiction and narrative.</span
               >
             </div>
 
@@ -137,8 +142,8 @@ const projects: Array<{
               <span class="text-white">
                 <a
                   class="text-cyan-600 hover:underline focus:outline-none focus:ring-2 focus:ring-cyan-600 focus:ring-offset-2 focus:ring-offset-gray-900"
-                  href="https://drive.google.com/file/d/1xipIvojFCL49PGYY32YSPcSU9Vzz0Ve9/view?usp=sharing"
-                  aria-label="https://drive.google.com/file/d/1xipIvojFCL49PGYY32YSPcSU9Vzz0Ve9/view?usp=sharing">Curriculum Vitae</a
+                  href="https://drive.google.com/file/d/1ARL_6R53lez8eBhFWZ-5LzLiahRFajiF/view?usp=drive_link"
+                  aria-label="https://drive.google.com/file/d/1ARL_6R53lez8eBhFWZ-5LzLiahRFajiF/view?usp=drive_link">Curriculum Vitae</a
                 >
               </span>
             </div>
@@ -182,7 +187,7 @@ const projects: Array<{
         role="region"
         aria-label="Project showcase"
       >
-        <h2 class="mb-4 text-sm font-bold text-gray-500">👾 mis proyectos</h2>
+        <h2 class="mb-4 text-sm font-bold text-gray-500">👾 my projects</h2>
         <div class="space-y-2" role="list">
           {
             projects.map((project, index) => (
