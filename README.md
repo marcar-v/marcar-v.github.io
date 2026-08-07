@@ -1,145 +1,80 @@
-# 🌱 Terminus
+# 🎮 Violeta Martín
+### Game Developer
 
-> A minimalist Astro template for developers
+Focused on gameplay programming and software development for interactive systems.
+My work centers on building responsive control systems, physics-based interactions, and modular gameplay loops across Unity and Unreal Engine, alongside general software development practice in object-oriented design and application architecture.
 
-![Preview of template](./preview.png)
+My projects explore gameplay mechanics, input responsiveness, system architecture, AI behavior, physics-driven interactions, and behavior-based game logic.
 
-## ✨ Features
+📍 Granada, Spain
 
-- 🚀 **Astro 5.x** - Fast, content-focused web framework
-- 🎨 **Tailwind CSS** - Utility-first CSS framework with typography plugin
-- 📱 **Responsive Design** - Mobile-first approach
-- 📝 **Blog Ready** - Built-in blog functionality with markdown support
-- 🚀 **GitHub Pages Deployment** - Automated deployment via GitHub Actions
-
-## 🛠️ Prerequisites
-
-- **Node.js** 18+
-- A computer (optional)
-
-## 🚀 Quick Start
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/ojoanalogo/terminus-astro-template.git
-   cd terminus-astro-template
-   ```
-
-2. **Install dependencies**
-
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server**
-
-   ```bash
-   npm run dev
-   ```
-
-4. **Open your browser**
-   Navigate to `http://localhost:4321` to see your site!
-
-## 📁 Project Structure
-
-```txt
-terminus/
-├── public/              # Static assets (favicon, images, etc.)
-├── src/
-│   ├── assets/         # Images, fonts, and other assets
-│   ├── components/     # Reusable Astro components
-│   │   ├── BaseHead.astro
-│   │   ├── Header.astro
-│   │   ├── PostPreview.astro
-│   │   └── ...
-│   ├── content/        # Content collections (blog posts, etc.)
-│   │   ├── blog/       # Blog posts in markdown
-│   │   └── config.ts   # Content collection configuration
-│   ├── layouts/        # Page layouts
-│   │   ├── BaseLayout.astro
-│   │   └── PostLayout.astro
-│   ├── pages/          # File-based routing
-│   │   ├── blog/       # Blog pages
-│   │   ├── index.astro # Homepage
-│   │   └── 404.astro   # Custom 404 page
-│   ├── styles/         # Global CSS styles
-│   ├── utils/          # Utility functions
-│   └── config.ts       # Site configuration
-├── astro.config.mjs    # Astro configuration
-├── tailwind.config.cjs # Tailwind CSS configuration
-└── package.json        # Dependencies and scripts
-```
-
-## 🎨 Customization
-
-### Site Configuration
-
-Edit `src/config.ts` to customize your site:
-
-```typescript
-export const SITE_TITLE = "Your Site Title";
-export const SITE_DESCRIPTION = "Your site description";
-```
-
-### Astro Configuration
-
-Modify `astro.config.mjs` to:
-
-- Update the site URL for production
-- Add new integrations
-- Configure build options
-
-## 📝 Adding Content
-
-### Blog Posts
-
-Create new blog posts in `src/content/blog/`:
-
-```markdown
----
-title: "Your Post Title"
-description: "Post description"
-pubDate: "2024-01-15"
----
-
-Your content here...
-```
-
-### Pages
-
-Add new pages in the `src/pages/` directory. Astro uses file-based routing:
-
-- `src/pages/about.astro` → `/about`
-- `src/pages/contact/index.astro` → `/contact`
-
-## 🚀 Deployment
-
-This template is configured for **automatic deployment to GitHub Pages** using GitHub Actions.
-
-### Setup GitHub Pages Deployment
-
-1. **Fork or use this template** to create your repository
-2. **Enable GitHub Pages** in your repository settings:
-   - Go to Settings → Pages
-   - Select "GitHub Actions" as the source
-3. **Update the site URL** in `astro.config.mjs`:
-
-   ```javascript
-   export default defineConfig({
-     site: "https://yourusername.github.io/your-repo-name",
-     // ... other config
-   });
-   ```
-
-4. **Push to main branch** - deployment happens automatically!
-
-## 📄 License
-
-MIT
+[Email](mailto:violetamartinc@gmail.com) · [LinkedIn]([#](https://www.linkedin.com/in/violeta-mart%C3%ADn-5589a31b7/)) · [Curriculum Vitae]([#](https://drive.google.com/file/d/1ARL_6R53lez8eBhFWZ-5LzLiahRFajiF/view?usp=drive_link))
 
 ---
 
-## 🤝 Contributing
+### 💼 Work
 
-Contributions, issues, and feature requests are welcome!
+- **Gameplay Programming** — Unity / Unreal Engine
+- **Software Development** — Java / C# / C++
+
+### 🌱 Interests
+
+Game systems design · Gameplay programming · Physics-based interactions · Level design analysis · Interactive fiction systems · Board game mechanics
+
+---
+
+### 🛠️ Tech Stack
+
+**Languages**
+`C++` `C#` `Java` `Python`
+
+**Engines**
+`Unity` `Unreal Engine`
+
+**Development**
+`Gameplay Programming` `OOP` `Game Architecture` `AI` `Physics` `Input Systems` `Git`
+
+---
+
+## 👾 Projects
+
+### 01. Tetris Clone
+Grid-based puzzle system implementing rotation logic (wall kicks / collision resolution), hard-drop timing, and state transitions between active piece, lock, and line-clear phases.
+Focus on deterministic gameplay loop and input responsiveness under frame constraints.
+
+### 02. Frog Platform 2D
+Physics-driven platformer emphasizing character controller tuning (acceleration curves, jump buffering, coyote time), collision response, and lateral movement feel.
+Iteration focused on input latency and control precision.
+
+### 03. Jelix Hump
+Physics-based arcade system centered on environmental interaction and collision-driven progression.
+Implements incremental difficulty scaling and loop-based pacing through procedural or semi-procedural challenge escalation.
+
+### 04. VR Experience (Unreal Engine)
+Virtual reality interaction prototype in Unreal Engine focusing on locomotion design (comfort constraints, movement modes), interaction systems, and runtime performance considerations (frame stability and motion latency sensitivity).
+
+### 05. Gala Samantaro
+2D action-platformer with enemy AI behaviors, boss encounter structure, and reward loop design.
+Level progression built around escalating combat and resource collection under structured difficulty curves.
+
+### 06. Clicker
+Incremental interaction loop system based on continuous input feedback and exponential progression scaling.
+Focus on reward pacing, feedback loops, and simple state accumulation mechanics.
+
+### 07. Ejercicios Java
+Structured programming practice covering core CS concepts (OOP, control flow, data structures).
+Used as reinforcement of algorithmic thinking and language-level fundamentals.
+
+### 08. Dual Cycle — *In development*
+Mobile application with authentication flow, multi-user data management, and remote state synchronization.
+Core focus on data modeling, persistence, and predictive logic for cycle estimation.
+
+---
+
+### 🎯 Current Focus
+
+`Gameplay Programming` `Software Architecture` `Unity` `Unreal Engine` `Java` `C#`
+
+---
+
+<p align="center"><i>Thanks for stopping by — feel free to explore the repos above.</i></p>
