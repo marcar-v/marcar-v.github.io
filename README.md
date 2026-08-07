@@ -8,7 +8,7 @@ My projects explore gameplay mechanics, input responsiveness, system architectur
 
 📍 Granada, Spain
 
-[Email](mailto:violetamartinc@gmail.com) · [LinkedIn]([#](https://www.linkedin.com/in/violeta-mart%C3%ADn-5589a31b7/)) · [Curriculum Vitae]([#](https://drive.google.com/file/d/1ARL_6R53lez8eBhFWZ-5LzLiahRFajiF/view?usp=drive_link))
+[Email](mailto:violetamartinc@gmail.com) · [LinkedIn](https://www.linkedin.com/in/violeta-mart%C3%ADn-5589a31b7/) · [Curriculum Vitae](https://drive.google.com/file/d/1ARL_6R53lez8eBhFWZ-5LzLiahRFajiF/view?usp=sharing)
 
 ---
 
@@ -34,40 +34,50 @@ Game systems design · Gameplay programming · Physics-based interactions · Lev
 **Development**
 `Gameplay Programming` `OOP` `Game Architecture` `AI` `Physics` `Input Systems` `Git`
 
+```
+$ cat about.txt
+Passionate about building systems that feel good to play —
+from tight character controllers to emergent AI behavior.
+```
+
 ---
 
 ## 👾 Projects
 
-### 01. Tetris Clone
+### 01. [Tetris Clone](https://github.com/marcar-v/Tetris)
 Grid-based puzzle system implementing rotation logic (wall kicks / collision resolution), hard-drop timing, and state transitions between active piece, lock, and line-clear phases.
 Focus on deterministic gameplay loop and input responsiveness under frame constraints.
 
-### 02. Frog Platform 2D
+### 02. [Frog Platform 2D](https://github.com/marcar-v/plataformas-2d)
 Physics-driven platformer emphasizing character controller tuning (acceleration curves, jump buffering, coyote time), collision response, and lateral movement feel.
 Iteration focused on input latency and control precision.
 
-### 03. Jelix Hump
+### 03. [Jelix Hump](https://github.com/marcar-v/helix-jump)
 Physics-based arcade system centered on environmental interaction and collision-driven progression.
 Implements incremental difficulty scaling and loop-based pacing through procedural or semi-procedural challenge escalation.
 
-### 04. VR Experience (Unreal Engine)
+### 04. [VR Experience (Unreal Engine)](https://github.com/marcar-v/M06-UnrealEngine)
 Virtual reality interaction prototype in Unreal Engine focusing on locomotion design (comfort constraints, movement modes), interaction systems, and runtime performance considerations (frame stability and motion latency sensitivity).
 
-### 05. Gala Samantaro
+### 05. [Gala Samantaro](https://github.com/marcar-v/final-project)
 2D action-platformer with enemy AI behaviors, boss encounter structure, and reward loop design.
 Level progression built around escalating combat and resource collection under structured difficulty curves.
 
-### 06. Clicker
+### 06. [Clicker](https://github.com/marcar-v/Clicker)
 Incremental interaction loop system based on continuous input feedback and exponential progression scaling.
 Focus on reward pacing, feedback loops, and simple state accumulation mechanics.
 
-### 07. Ejercicios Java
+### 07. [Ejercicios Java](https://github.com/marcar-v/java_curso)
 Structured programming practice covering core CS concepts (OOP, control flow, data structures).
 Used as reinforcement of algorithmic thinking and language-level fundamentals.
 
-### 08. Dual Cycle — *In development*
+### 08. [Dual Cycle](https://github.com/marcar-v/dual-cycle) — *In development*
 Mobile application with authentication flow, multi-user data management, and remote state synchronization.
 Core focus on data modeling, persistence, and predictive logic for cycle estimation.
+
+### 09. [Auth API](https://github.com/marcar-v/auth-api) — *In development*
+Backend authentication service built with Java and Spring Boot, implementing JWT-based authentication and session management.
+Handles user registration, token-based authentication, and session persistence, following a layered architecture (controller → service → repository) and running fully containerized with Docker.
 
 ---
 
@@ -77,4 +87,4 @@ Core focus on data modeling, persistence, and predictive logic for cycle estimat
 
 ---
 
-<p align="center"><i>Thanks for stopping by — feel free to explore the repos above.</i></p>
+_Thanks for stopping by — feel free to explore the repos above._
